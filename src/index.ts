@@ -1,3 +1,6 @@
-export { linkShorter } from "./utils/functions";
-export { ILinkShorter, ILinkShorterParams, ILinkShorterResponse } from "./utils/types";
-
+export { shortenLink } from "./utils/functions";
+export {
+  IShortenLink,
+  IShortenLinkParams,
+  IShortenLinkResponse,
+} from "./utils/types";

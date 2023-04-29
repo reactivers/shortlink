@@ -11,10 +11,10 @@ yarn add @reactivers/shortlink
 ## Usage
 
 ```ts
-import {linkShorter} '@reactivers/shortlink'
+import { shortenLink } '@reactivers/shortlink'
 
 const getShortlink = async () => {
-  const {shortlink} = await linkShorter({link: "https://hooks.reactivers.com"})
+  const {shortlink} = await shortenLink({link: "https://hooks.reactivers.com"})
   console.log("shortlink", shortlink);
 }
 

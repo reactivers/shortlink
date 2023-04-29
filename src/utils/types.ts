@@ -1,10 +1,12 @@
-export interface ILinkShorterParams {
-    link: string;
+export interface IShortenLinkParams {
+  link: string;
 }
 
-export interface ILinkShorterResponse {
-    link: string;
-    shortlink: string;
+export interface IShortenLinkResponse {
+  link: string;
+  shortlink: string;
 }
 
-export declare type ILinkShorter = (params: ILinkShorterParams) => Promise<ILinkShorterResponse>
+export declare type IShortenLink = (
+  params: IShortenLinkParams
+) => Promise<IShortenLinkResponse>;
